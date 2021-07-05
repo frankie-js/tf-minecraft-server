@@ -75,27 +75,27 @@
   "complianceLevel": 1,
   "downloads": {
     "client": {
-      "sha1": "132b56af0236e9877261325b67d1606d126463ae",
-      "size": 19546967,
-      "url": "https://launcher.mojang.com/v1/objects/132b56af0236e9877261325b67d1606d126463ae/client.jar"
+      "sha1": "1cf89c77ed5e72401b869f66410934804f3d6f52",
+      "size": 19536133,
+      "url": "https://launcher.mojang.com/v1/objects/1cf89c77ed5e72401b869f66410934804f3d6f52/client.jar"
     },
     "client_mappings": {
-      "sha1": "38c2dcaf1ea2ed18611daed122c54ac7ad2ec9be",
-      "size": 6437531,
-      "url": "https://launcher.mojang.com/v1/objects/38c2dcaf1ea2ed18611daed122c54ac7ad2ec9be/client.txt"
+      "sha1": "227d16f520848747a59bef6f490ae19dc290a804",
+      "size": 6431705,
+      "url": "https://launcher.mojang.com/v1/objects/227d16f520848747a59bef6f490ae19dc290a804/client.txt"
     },
     "server": {
-      "sha1": "dd9ca1bdc855535cd7ce0565f02285ad4d6d1ae5",
-      "size": 43626668,
-      "url": "https://launcher.mojang.com/v1/objects/dd9ca1bdc855535cd7ce0565f02285ad4d6d1ae5/server.jar"
+      "sha1": "0a269b5f2c5b93b1712d0f5dc43b6182b9ab254e",
+      "size": 43621201,
+      "url": "https://launcher.mojang.com/v1/objects/0a269b5f2c5b93b1712d0f5dc43b6182b9ab254e/server.jar"
     },
     "server_mappings": {
-      "sha1": "20e3df62c8698434fb626e715d899e93865b9785",
-      "size": 4953452,
-      "url": "https://launcher.mojang.com/v1/objects/20e3df62c8698434fb626e715d899e93865b9785/server.txt"
+      "sha1": "84d80036e14bc5c7894a4fad9dd9f367d3000334",
+      "size": 4948536,
+      "url": "https://launcher.mojang.com/v1/objects/84d80036e14bc5c7894a4fad9dd9f367d3000334/server.txt"
     }
   },
-  "id": "1.17.1-rc2",
+  "id": "1.17",
   "javaVersion": { "component": "java-runtime-alpha", "majorVersion": 16 },
   "libraries": [
     {
@@ -123,13 +123,13 @@
     {
       "downloads": {
         "artifact": {
-          "path": "com/github/oshi/oshi-core/5.7.5/oshi-core-5.7.5.jar",
-          "sha1": "725374463734aacde70a3b20f018aca3f922655f",
-          "size": 835738,
-          "url": "https://libraries.minecraft.net/com/github/oshi/oshi-core/5.7.5/oshi-core-5.7.5.jar"
+          "path": "com/github/oshi/oshi-core/5.7.4/oshi-core-5.7.4.jar",
+          "sha1": "7d46a42de1af8c81d401d50082f285853307b31d",
+          "size": 835937,
+          "url": "https://libraries.minecraft.net/com/github/oshi/oshi-core/5.7.4/oshi-core-5.7.4.jar"
         }
       },
-      "name": "com.github.oshi:oshi-core:5.7.5"
+      "name": "com.github.oshi:oshi-core:5.7.4"
     },
     {
       "downloads": {
@@ -1279,7 +1279,7 @@
   },
   "mainClass": "net.minecraft.client.main.Main",
   "minimumLauncherVersion": 21,
-  "releaseTime": "2021-07-05T12:58:01+00:00",
-  "time": "2021-07-05T12:58:01+00:00",
-  "type": "snapshot"
+  "releaseTime": "2021-06-08T11:00:40+00:00",
+  "time": "2021-06-08T11:00:40+00:00",
+  "type": "release"
 }

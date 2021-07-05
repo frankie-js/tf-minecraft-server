@@ -1,7 +1,7 @@
-# !/bin/bash
+# !/bin/sh
 
-LATEST=$(jq '.latest.release' version_manifest.json)
+RELEASE=$(jq '.latest.release' version_manifest.json)
 
-LINK=$(jq '.versions[] | select(.id=="${LATEST}") | .url' version_manifest.json)
+LINK=$(jq '.versions[] | select(.id=="1.17") | .url' version_manifest.json | tr -d '"')
 
-echo $LINK
+curl $LINK | jq -r '.downloads.server.url' | xargs curl -O
