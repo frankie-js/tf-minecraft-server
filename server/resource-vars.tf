@@ -8,12 +8,12 @@ variable "override_name_prefix" {
 
 variable "enviroment" {
   description = "Abbreviated environment name"
-  default = "dev"
+  default     = "dev"
 }
 
 variable "project" {
   description = "Project abbreviation/prefix"
-  default = ""
+  default     = ""
 }
 
 # ---------------------------------------------------------
@@ -22,8 +22,8 @@ variable "project" {
 
 variable "additional_tags" {
   description = "Additional resource tags"
-  type = map(string)
-  default = {}
+  type        = map(string)
+  default     = {}
 }
 
 ###########################################################
@@ -37,6 +37,6 @@ locals {
   # Tagging policy
   tags = merge({
     Environment = var.environment
-    Project = var.project
+    Project     = var.project
   }, var.additional_tags)
 }

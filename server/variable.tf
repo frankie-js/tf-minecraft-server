@@ -7,12 +7,12 @@
 # ---------------------------------------------------------
 
 variable "profile" {
-  type = string
+  type        = string
   description = "AWS named profile"
 }
 
 variable "public_key" {
-  type = string
+  type        = string
   description = "SSH public key for connecting to instance"
 }
 

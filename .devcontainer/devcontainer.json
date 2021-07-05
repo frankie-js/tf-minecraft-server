@@ -1,0 +1,76 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.183.0/containers/alpine
+{
+	"name": "Alpine",
+	"build": {
+		"dockerfile": "Dockerfile",
+		// Update 'VARIANT' to pick an Alpine version: 3.10, 3.11, 3.12, 3.13
+		"args": {
+			"VARIANT": "3.13"
+		}
+	},
+	// Set *default* container specific settings.json values on container create.
+	"settings": {},
+	// Add the IDs of extensions you want installed when the container is created.
+	// Note that some extensions may not work in Alpine Linux. See https://aka.ms/vscode-remote/linux.
+	"extensions": [
+		"aaron-bond.better-comments",
+		"abusaidm.html-snippets",
+		"alefragnani.Bookmarks",
+		"amazonwebservices.aws-toolkit-vscode",
+		"christian-kohler.npm-intellisense",
+		"christian-kohler.path-intellisense",
+		"CoenraadS.bracket-pair-colorizer-2",
+		"DavidAnson.vscode-markdownlint",
+		"dbaeumer.vscode-eslint",
+		"dsznajder.es7-react-js-snippets",
+		"eamodio.gitlens",
+		"ecmel.vscode-html-css",
+		"EditorConfig.EditorConfig",
+		"eg2.vscode-npm-script",
+		"esbenp.prettier-vscode",
+		"formulahendry.auto-close-tag",
+		"formulahendry.auto-complete-tag",
+		"formulahendry.auto-rename-tag",
+		"hashicorp.terraform",
+		"IBM.output-colorizer",
+		"mechatroner.rainbow-csv",
+		"mhutchie.git-graph",
+		"ms-azuretools.vscode-docker",
+		"ms-python.python",
+		"ms-python.vscode-pylance",
+		"ms-toolsai.jupyter",
+		"ms-vscode-remote.remote-containers",
+		"ms-vscode-remote.remote-ssh",
+		"ms-vscode-remote.remote-ssh-edit",
+		"ms-vscode-remote.remote-wsl",
+		"ms-vscode-remote.vscode-remote-extensionpack",
+		"ms-vscode.hexeditor",
+		"ms-vscode.powershell",
+		"msjsdiag.debugger-for-chrome",
+		"msrvida.vscode-sanddance",
+		"naumovs.color-highlight",
+		"Orta.vscode-jest",
+		"piotrpalarz.vscode-gitignore-generator",
+		"PKief.material-icon-theme",
+		"PKief.material-product-icons",
+		"pnp.polacode",
+		"redhat.vscode-commons",
+		"redhat.vscode-xml",
+		"redhat.vscode-yaml",
+		"streetsidesoftware.code-spell-checker",
+		"syler.sass-indented",
+		"taniarascia.new-moon-vscode",
+		"tombonnike.vscode-status-bar-format-toggle",
+		"xabikos.JavaScriptSnippets",
+		"yzhang.markdown-all-in-one",
+	],
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+	// Use 'postCreateCommand' to run commands after the container is created.
+	// "postCreateCommand": "uname -a",
+	// Uncomment when using a ptrace-based debugger like C++, Go, and Rust
+	// "runArgs": [ "--cap-add=SYS_PTRACE", "--security-opt", "seccomp=unconfined" ],
+	// Comment out connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
+	"remoteUser": "vscode"
+}
